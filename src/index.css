@@ -11,3 +11,141 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home-icon {
+    text-align:left;
+    align-items:baseline;
+}
+
+.NavBarYo {
+    width: 100vw;
+    background-color: #424752;
+}
+
+.right {
+    margin-left: auto!important;
+    margin-right: unset;
+}
+
+.sameline {
+    display: flex;
+    vertical-align: central;
+}
+
+.cpu{
+    margin-bottom: 2vh;
+}
+
+.movingtext {
+    margin-top: 2vh;
+    font-size: calc(min(5vw, 42px));
+}
+
+.para {
+    margin-bottom: 15vh;
+    font-size: calc(min(3vw, 32px));
+    vertical-align: central;
+    text-align: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.smaller-para {
+    font-size: calc(min(vw, 22px));
+    margin-bottom: 2vh;
+}
+
+.collection {
+    width: 100vw;
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.project {
+    width: 41vw;
+    height: 31vw;
+    margin: 3vw;
+    background-color: blue;
+    background-image: linear-gradient(rgba(150, 150, 150, 0), rgba(20, 20, 20, .8)), url('test.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius:25px;
+}
+
+.project:hover{
+    opacity:.5;
+}
+
+.project2 {
+    width: 41vw;
+    height: 31vw;
+    margin: 3vw;
+    background-color: blue;
+    background-image: linear-gradient(rgba(150, 150, 150, 0), rgba(20, 20, 20, .8)), url('test4.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.project2:hover {
+    opacity: .5;
+}
+
+
+.project3 {
+    width: 41vw;
+    height: 31vw;
+    margin: 3vw;
+    background-color: blue;
+    background-image: linear-gradient(rgba(150, 150, 150, 0), rgba(20, 20, 20, .8)), url('test3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.project3:hover {
+    opacity: .5;
+}
+
+
+.project4 {
+    width: 41vw;
+    height: 31vw;
+    margin: 3vw;
+    background-color: blue;
+    background-image: linear-gradient(rgba(150, 150, 150, 0), rgba(20, 20, 20, .8)), url('test2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.project4:hover {
+    opacity: .5;
+}
+
+
+.textContainer {
+    margin-left: 2vw;
+}
+
+.bottomtext {
+    bottom: 1vw;
+    font-size:1.5vw;
+    margin-top:1%;
+}
+
+.toptext {
+    font-size: 2.5vw;
+    margin-top: 55%;
+}
+
+#contact {
+    width: 100vw;
+    background-color: #424752;
+    vertical-align:middle;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
