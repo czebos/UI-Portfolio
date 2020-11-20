@@ -15,6 +15,7 @@ code {
 .home-icon {
     text-align:left;
     align-items:baseline;
+    margin-left: 2vw;
 }
 
 .NavBarYo {
@@ -51,7 +52,7 @@ code {
 }
 
 .smaller-para {
-    font-size: calc(min(vw, 22px));
+    font-size: calc(min(2.5vw, 22px));
     margin-bottom: 2vh;
 }
 
@@ -149,3 +150,60 @@ code {
     flex-direction: column;
     align-items: center;
 }
+
+.title-contact {
+    margin: 1vw;
+    margin-top:2vw;
+
+}
+
+.social-media{
+    margin-bottom: 2vw;
+}
+
+.icon-so {
+    margin-left: .9vw;
+    margin-right: .9vw;
+}
+
+.contact-container {
+    width: 100vw;
+    background-color: #424752;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+}
+
+.me-img {
+    width: 41vw;
+    height: 45vw;
+    border-radius: 25px;
+    margin-bottom: 5vh;
+}
+
+.wrapper1 {
+    width: 50vw;
+    align-items: center;
+    text-align:center;
+
+}
+
+.wrapper2 {
+    width: 50vw;
+    align-items:start;
+    padding-right: 5vw;
+}
+
+.contact-title{
+    margin-top: 10%;
+    position: relative;
+    display: flex;
+}
+
+.contact-para {
+    margin-top: 10%;
+    position: relative;
+    font-size: calc(min(2vw, 25px));
+}
+
+

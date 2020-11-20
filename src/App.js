@@ -6,6 +6,9 @@ import CypherText from 'react-cypher-text-loop'
 import { Cpu, ArrowDown } from 'react-bootstrap-icons';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 import Pdf from './conrad_zborowski_resume.pdf' 
+import img from './Conrad2.png'
+
+import { SocialIcon } from 'react-social-icons';
 
 
 
@@ -61,8 +64,26 @@ function App() {
                   </div>
               </div>
               <div id='contact'>
-                  Lets get in Contact
+                  <div className="title-contact"> Lets get in Contact</div>
+                  <div className="social-media">
+                      <SocialIcon className='icon-so' url="https://facebook.com/conrad.zborowski" />
+                      <SocialIcon className='icon-so' url="https://linkedin.com/in/conrad-zborowski/" />
+                      <SocialIcon className='icon-so' url="https://github.com/czebos" />
+                      <SocialIcon className='icon-so' url="https://instagram.com/conradzftw/i" />
+
+                  </div>
+                  <div className="contact-container">
+                      <div className='wrapper1'> <img className='me-img' src={img} /> </div>
+                      <div className='wrapper2'>
+                          <b className='contact-title'>Intersted in Learning More?</b>
+                          <div className='contact-para'>Feel free to shoot me an email at <a href=" mailto: conrad_zborowski@brown.edu">Conrad_Zborowski@brown.edu</a>.
+                            I would love to talk to you about my portfolio, my CS goals, possible inquiries or even my favorite activies like
+                              lifting and gaming.
+                          </div>
+                      </div>
+                  </div>
               </div>
+
           </body>
            
 
