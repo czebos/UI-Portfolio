@@ -13,6 +13,8 @@ import Project2 from './projects/Project2'
 import Project3 from './projects/Project3'
 import Project4 from './projects/Project4'
 
+import { Link as SmoothLink, animateScroll as scroll } from "react-scroll";
+
 import { SocialIcon } from 'react-social-icons';
 
 
@@ -47,8 +49,8 @@ function App() {
                             <Navbar className='NavBarYo' variant="dark">
                                 <div className='home-icon' href="#home">CZ</div>
                                 <Nav className="right">
-                                    <Nav.Link href="#projects">Projects</Nav.Link>
-                                    <Nav.Link href="#contact">Contact</Nav.Link>
+                                    <SmoothLink className='navbar-other' smooth={true} activeClass="active" to="projects">Projects</SmoothLink>
+                                    <SmoothLink className='navbar-other' smooth={true} activeClass="active" to="contact">Contact</SmoothLink>
                                     <Nav.Link href={Pdf}>Resume</Nav.Link>
                                 </Nav>
                             </Navbar>
@@ -56,7 +58,7 @@ function App() {
                             <Cpu className='cpu' />
                             <p className="para">I am a Software Developer and UI/UX engineer based in Chicago.</p>
                             <p className="smaller-para">UI/UX Projects</p>
-                            <a href='#projects'> <ArrowDown /> </a>
+                            <SmoothLink className='navbar-other' smooth={true} activeClass="active" to="projects"><ArrowDown/></SmoothLink>
                             <div id="projects" className="collection">
                                 <Link to='/project1' className='project cancel'>
                                     <div className='textContainer'>
