@@ -25,18 +25,28 @@ const project1 = () => {
                         <div className='bottomtext'>Desiging and Implementing a React App</div>
                     </div>
                 </div>
-                <b>I created a React app that implements a list interface. I designed
+                <b >I created a React app that implements a list interface. I designed
                  the architecture and the implmented the details.</b>
                 <br></br>
-                <div> You can access the application <a href="https://radiant-brook-21957.herokuapp.com/">here.</a>
-                The react app used bootstrap and a few other visual frameworks. The application took
-                advantage of react state, componentes and props.<br></br> I created a way to filter the list, sort
-                the list, and aggregate items from the list. The theme of the application was
-                 creating a Super Smash Bros Team from a list of characters.
-                </div>
+                <div className='centered-title'> Introduction</div>
+                In this project, I created a simple filtering and sorting system with an aggregator. This means that I had some sort of collection that I could filter and sort by
+              some metric. Then I also needed to be able for the user to interact with the product to aggregate it. In this example I had a user make a team from a list of Super
+              Smash Bro's Melee Characters. <br></br> <br></br>
+                <div className='centered-title'> Goals and Values</div>
+                The value of the application is to allow the user to create a Melee Team with easy selecting and sorting. 
+              The goal of the assignment is to create and app that uses React and, without using libraries, create a sorting,
+              filtering, and aggregation application using good React designed code with states, components and architecture.
                 <br></br>
-                <div> Interesting in learning more about the project? Contact me at <a href=" mailto: conrad_zborowski@brown.edu">Conrad_Zborowski@brown.edu</a>
+                <br></br>
+                <div className='centered-title'> Implementation Details</div>
+                Some design considered was using multiple types of listitem components for both the Team and the list. I also considered
+              seperating the team and the list by parent, and using the root instead. Finally I considered using multiple classes for more
+              modularized code.
+                <br></br>
+                <br></br>
+                <div className='just-centered'> Interesting in learning more about the project? Contact me at
                 </div>
+                <a className='just-centered' href=" mailto: conrad_zborowski@brown.edu">Conrad_Zborowski@brown.edu</a>
             </div>
         </div>
     );

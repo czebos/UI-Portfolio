@@ -256,6 +256,62 @@ code {
     color:white;
 }
 
+.centered-title {
+    text-align: center;
+    align-items: center;
+    display:flex;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.just-centered {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.image{
+    width: 31vw;
+    height: 21vw;
+    margin: 3vw;
+    background-color: blue;
+    background-image:  url('projects/website.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.image2 {
+    width: 31vw;
+    height: 21vw;
+    margin: 3vw;
+    background-color: blue;
+    background-image: url('projects/interface.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.image2:hover{
+    opacity: .5;
+}
+
+
+.blue{
+    color:blue;
+}
+
+#gifs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gif {
+    margin: 10px;
+    width: 25vw;
+
+}
+
 
 
 
