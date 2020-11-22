@@ -206,4 +206,56 @@ code {
     font-size: calc(min(2vw, 25px));
 }
 
+.navbar-other {
+    vertical-align: central;
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-other:hover {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.backbar {
+
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.back-button {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.centered {
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+    margin-left:20vw;
+    margin-right:20vw;
+}
+
+.margin-none {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    margin-left:0;
+}
+
+.no-hover:hover {
+    opacity: 1;
+}
+
+.cancel {
+    color:white;
+}
+
+.cancel:hover {
+    text-decoration: none;
+    color:white;
+}
+
+
+
 
