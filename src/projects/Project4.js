@@ -59,7 +59,6 @@ const project3 = () => {
                 <br></br>
                 <div className='just-centered'> Interesting in learning more about the project? Contact me at
                 </div>
-                <a className='just-centered' href=" mailto: conrad_zborowski@brown.edu">Conrad_Zborowski@brown.edu</a>
             </div>
         </div>
     );

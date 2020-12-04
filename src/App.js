@@ -47,7 +47,7 @@ function App() {
 
                         <body>
                             <Navbar className='NavBarYo' variant="dark">
-                                <div className='home-icon' href="#home">CZ</div>
+                                <div className='home-icon' href="#home">JC</div>
                                 <Nav className="right">
                                     <SmoothLink className='navbar-other' smooth={true} activeClass="active" to="projects">Projects</SmoothLink>
                                     <SmoothLink className='navbar-other' smooth={true} activeClass="active" to="contact">Contact</SmoothLink>
