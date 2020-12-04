@@ -19,7 +19,7 @@ import { SocialIcon } from 'react-social-icons';
 
 
 
-const texts = ["I'm Conrad Zborowski.", "I'm a UI/UX Developer."]
+const texts = ["I'm Joe Carberry.", "I'm a UI/UX Developer."]
 
 
 function App() {
