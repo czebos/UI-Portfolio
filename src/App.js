@@ -6,7 +6,7 @@ import TextTransition, { presets } from "react-text-transition";
 import CypherText from 'react-cypher-text-loop'
 import { Cpu, ArrowDown } from 'react-bootstrap-icons';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
-import Pdf from './conrad_zborowski_resume.pdf' 
+//import Pdf from './conrad_zborowski_resume.pdf' 
 import img from './Conrad2.png'
 import Project1 from './projects/Project1'
 import Project2 from './projects/Project2'
@@ -51,7 +51,7 @@ function App() {
                                 <Nav className="right">
                                     <SmoothLink className='navbar-other' smooth={true} activeClass="active" to="projects">Projects</SmoothLink>
                                     <SmoothLink className='navbar-other' smooth={true} activeClass="active" to="contact">Contact</SmoothLink>
-                                    <Nav.Link href={Pdf}>Resume</Nav.Link>
+                                    <Nav.Link >Resume</Nav.Link>
                                 </Nav>
                             </Navbar>
                             <CypherText className='movingtext' placeholders="_" delay={2000} textList={texts} />
@@ -90,17 +90,17 @@ function App() {
                             <div id='contact'>
                                 <div className="title-contact"> Lets get in Contact</div>
                                 <div className="social-media">
-                                    <SocialIcon className='icon-so' url="https://facebook.com/conrad.zborowski" />
-                                    <SocialIcon className='icon-so' url="https://linkedin.com/in/conrad-zborowski/" />
-                                    <SocialIcon className='icon-so' url="https://github.com/czebos" />
-                                    <SocialIcon className='icon-so' url="https://instagram.com/conradzftw/i" />
+                                    <SocialIcon className='icon-so'  />
+                                    <SocialIcon className='icon-so'  />
+                                    <SocialIcon className='icon-so'  />
+                                    <SocialIcon className='icon-so'  />
 
                                 </div>
                                 <div className="contact-container">
                                     <div className='wrapper1'> <img className='me-img' src={img} /> </div>
                                     <div className='wrapper2'>
                                         <b className='contact-title'>Intersted in Learning More?</b>
-                                        <div className='contact-para'>Feel free to shoot me an email at <a href=" mailto: conrad_zborowski@brown.edu">Conrad_Zborowski@brown.edu</a>.
+                                        <div className='contact-para'>Feel free to shoot me an email at .
                                 I would love to talk to you about my portfolio, my CS goals, possible inquiries or even my favorite activies like
                                   lifting and gaming.
                               </div>
